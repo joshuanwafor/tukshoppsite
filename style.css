@@ -1,0 +1,39 @@
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #F97316;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#signup {
+    background-color: black;
+    border: 2px solid #F97316;
+}
+
+.card {
+    border: 1px solid #F97316;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.flex-container .card {
+    margin-right: 20px;
+}
